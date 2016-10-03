@@ -24,12 +24,12 @@ namespace xadrez_console
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine(" a b c d e f g h");
+            Console.WriteLine("  a b c d e f g h");
         }
 
         public static void imprimirPeca(Peca peca) {
             if (peca.cor == Cor.Branca) {
-                Console.WriteLine(peca);
+                Console.Write(peca);
             }
             else {
                 ConsoleColor aux = Console.ForegroundColor;
