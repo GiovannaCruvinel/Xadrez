@@ -106,7 +106,7 @@ namespace xadrez
                 }
                 // #jogadaespecial roque grande
                 Posicao posT2 = new Posicao(posicao.linha, posicao.coluna - 4);
-                if (testeTorreParaRoque(posT1=2))
+                if (testeTorreParaRoque(posT2))
                 {
                     Posicao p1 = new Posicao(posicao.linha, posicao.coluna - 1);
                     Posicao p2 = new Posicao(posicao.linha, posicao.coluna - 2);

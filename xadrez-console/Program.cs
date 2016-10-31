@@ -19,7 +19,7 @@ namespace xadrez_console
                     Console.WriteLine();
                     Console.Write("Origem: ");
                     Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
-                    partida.validarPosicaodeOrigem(origem);
+                    partida.validarPosicaoDeOrigem(origem);
 
                     bool[,] posicoesPossiveis = partida.tab.peca(origem).movimentosPossiveis();
 
